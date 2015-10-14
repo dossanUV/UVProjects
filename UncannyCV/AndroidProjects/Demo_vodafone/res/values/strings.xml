@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uvName">Uncanny Vision</string>
+    <string name="app_name">UV_Similarity_and_Recognition</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutUsLabel">About</string>
+    <string name="settingsLabel">Settings</string>
+    <string name="aboutUsText">Uncanny Vision\nSpecialists in Computer Vision Systems.\n\nwww.uncannyvision.com\nMail Us: sales@uncannyvision.com</string>
+    <string name="start">START</string>
+    <string name="fps">Time: </string>
+    <string name="consoleRunName">Text Console Demo</string>
+    <string name="consoleDemoDecription">Runs each algorithm from stored images and prints the performance numbers.\n\nThis is useful to evaluate individual algorithms.</string>
+    <string name="cameraRunName">Camera Demo</string>
+    <string name="cameraDemoDecription">Live demo from camera feed.\n\nCaptures frames from camera live, apply the selected algorithm on the fly and shows the result frames.</string>
+    <string name="changeAlgoBtnLabel">Change</string>
+    <string name="changeAlgo">Change Algo</string>
+    <string name="infoBtnLabel">Find Similar Images!</string>
+    <string name="infoBtnLabel_scenes">Tag Images(Scenes and objects)!</string>
+    <string name="infoBtnLabel_indiancars">Tag Images(Indian cars)!</string>
+    <string name="infoBtnLabel_landmarks">Tag Images(landmarks)!</string>
+    
+    <string name="ok">OK</string>
+
+    <!-- Preferences -->
+    <string name="prefEnableUVCV">Enable UVCV processing</string>
+    <string name="prefEnableUVCVDescription">Enable UVCV image processing algorithms. Changing this will help evaluate the original incoming FPS compared with the one achieved after applying the algorithms.</string>
+    <string name="prefShowFPS">Show FPS</string>
+    <string name="prefShowFPSDescription">Display effective frame rate</string>
+
+    <!-- Algorithm Names and Descriptions -->
+    <string-array name="algos">
+
+        <!-- <item>CANNY</item> -->
+        <!-- <item>FAST KEYPOINTS</item> -->
+        <!-- <item>LENSE CORRECTION</item> -->
+        <!-- <item>OPTICAL FLOW</item> -->
+        <!-- <item>KMEANS</item> -->
+        <!-- <item>TAMPER DETECTION</item> -->
+        <!-- <item>MOTION DETECTION</item> -->
+        <!-- <item>SCENE CHANGE</item> -->
+        <!-- <item>MoG LEVEL0</item> -->
+        <!-- <item>SOBEL</item> -->
+        <!-- <item>FACE DETECTION</item> -->
+        <!-- <item>PEDESTRIAN DETECTION</item> -->
+        <!-- <item>LANE DEPARTURE</item> -->
+        <item>Object/Scene Recognition</item>
+        <!-- <item>VEHICLE DETECTION</ITEM> -->
+        <!-- <ITEM>VEH_PED DETECTION</ITEM> -->
+        <!-- <ITEM>VEH_LANE DETECTION</item> -->
+    </string-array>
+    <string-array name="algoDescriptions">
+        <item>Stereo disparity demo. Read the image taken by the camera and highlighted when it detecting.</item>
+        <!-- <item>Canny Edge detection finds the edges in the images. The output then displays these edges.</item> -->
+        <!-- <item>This is the Fast9 keypoint detection algorithm. The keypoints are highlighted as RED colored pixels in the output.</item> -->
+        <!-- <item>This algorithm corrects the distortion of the camera lens and displays it.</item> -->
+        <!-- <item>Demonstration of Lucas-Kanade Optical Flow algorithm to detect the keypoints. The output highlights the direction of motion.</item> -->
+        <!-- <item>Demonstration of k-means clustering image segmentation algorithm. The output is the clustered image.</item> -->
+        <!-- <item>When a minimum of 65% of the camera view is tampered, the image gets highlighted RED. Initial BLUE highlighting is the learning phase.</item> -->
+        <!-- <item>Demonstration of a simple motion detection algorithm. The portion of the image where motion occurs is highlighted.</item> -->
+        <!-- <item>Demonstraion of scene change algorithm. Alerts its occurrence when the camera position is changed. </item> -->
+        <!-- <item>This is a Background Subtraction algorithm which uses a single level. Image gets highlighted when motion is detected.</item> -->
+        <!-- <item>Sobel Edge detection finds the edges in the images. The output then displays these edges.</item> -->
+    </string-array>
+
+</resources>
